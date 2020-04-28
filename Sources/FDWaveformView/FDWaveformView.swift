@@ -92,7 +92,7 @@ open class FDWaveformView: UIView {
     }
 
     // Type of waveform to display
-    var waveformType: WaveformType = .logarithmic {
+    var waveformType: WaveformType = .linear {
         didSet {
             setNeedsDisplay()
             setNeedsLayout()
